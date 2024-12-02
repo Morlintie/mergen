@@ -93,17 +93,17 @@ main {
 @media screen and (prefers-color-scheme: dark) {
   :root {
     /*BG-COLORS*/
-    /* --WEBSİTE-BG-COLOR: rgb(0, 0, 0);
+   --WEBSİTE-BG-COLOR: rgb(0, 0, 0);
     --HOVER-BG-COLOR: rgb(53, 53, 53);
     --TRANSPARENT-BG-COLOR: rgba(17, 17, 17, 0.7);
     --TRANSPARENT-HOVER-BG-COLOR: rgba(46, 46, 46, 0.7);
     --TRANSPARENT-ACTİVE-BG-COLOR: rgb(29, 29, 29);
-    --HOVER-BLACK-BG-COLOR: rgb(209, 209, 209);*/
+    --HOVER-BLACK-BG-COLOR: rgb(209, 209, 209);
     /*FONT-COLORS*/
-    /*--GRAY-FONT-COLOR: rgb(54, 54, 54);
-    --BASE-FONT-COLOR: rgb(255, 255, 255);*/
+  --GRAY-FONT-COLOR: rgb(54, 54, 54);
+    --BASE-FONT-COLOR: rgb(255, 255, 255);
     /*GENERAL COLORS*/
-    /*--TWİTTER-UWU-COLOR: rgb(0, 183, 255);
+   --TWİTTER-UWU-COLOR: rgb(0, 183, 255);
     --TWİTTER-UWU-TRANSPARENT-COLOR: rgba(0, 183, 255, 0.3);
     --TWİTTER-UWU-HARD-TRANSPARENT-COLOR: rgba(0, 183, 255, 0.5);
     --BORDER-COLOR: rgb(146, 146, 146);
@@ -115,10 +115,10 @@ main {
     --RED-BG-COLOR: rgb(171, 43, 88);
     --BASİC-STEELBLUE-BG-COLOR: rgba(70, 130, 180, 0.6);
     --BASİC-STEELBLUE-HARD-BG-COLOR: rgba(70, 131, 180, 0.921);
-    --GRAY-TRANSPARENT-BG-COLOR: rgba(128, 128, 128, 0.8);*/
+    --GRAY-TRANSPARENT-BG-COLOR: rgba(128, 128, 128, 0.8);
     /*SHADOW COLORS*/
-    /* --SHADOW-COLOR: rgba(255, 255, 255, 0.5);*/
+    --SHADOW-COLOR: rgba(255, 255, 255, 0.5);
     /*--BORDER-COLORS*/
-    /* --BASİC-BORDER-COLOR: rgb(154, 152, 152);*/
+   --BASİC-BORDER-COLOR: rgb(154, 152, 152);
   }
 }
