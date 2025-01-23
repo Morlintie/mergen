@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Amazon Project</title>
+    <title>Orders</title>
     <link rel="icon" href="images/amazon-logo-header.jpg" />
 
     <!-- This code is needed for responsive design to work.
@@ -20,7 +20,7 @@
     <!-- Here are the CSS files for this page. -->
     <link rel="stylesheet" href="styles/shared/general.css" />
     <link rel="stylesheet" href="styles/shared/amazon-header.css" />
-    <link rel="stylesheet" href="styles/pages/amazon.css" />
+    <link rel="stylesheet" href="styles/pages/orders.css" />
   </head>
   <body>
     <div class="amazon-header">
@@ -50,16 +50,17 @@
 
         <a class="cart-link header-link" href="checkout.html">
           <img class="cart-icon" src="images/icons/cart-icon.png" />
-          <div class="cart-quantity">0</div>
+          <div class="cart-quantity cart-quantity-js">0</div>
           <div class="cart-text">Cart</div>
         </a>
       </div>
     </div>
 
     <div class="main">
-      <div class="products-grid"></div>
-    </div>
+      <div class="page-title">Your Orders</div>
 
-    <script type="module" src="scripts/amazon.js"></script>
+      <div class="orders-grid orders-grid-js"></div>
+    </div>
+    <script type="module" src="scripts/orders.js"></script>
   </body>
 </html>
